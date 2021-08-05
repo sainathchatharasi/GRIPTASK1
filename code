@@ -1,0 +1,9 @@
+#importing  important libaries in python to perform task
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+#reading data from given url link in task
+data="http://bit.ly/w-data"
+df=pd.read_csv(data)
+print("data has been succesfully imported\n")
+df
